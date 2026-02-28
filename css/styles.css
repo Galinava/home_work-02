@@ -58,6 +58,10 @@
 }
 
 /* Header styles */
+.header-logo-accent {
+	color: var(--navy-blue);
+}
+
 .header-link {
 	font-weight: 500;
 	color: var(--navy-blue);

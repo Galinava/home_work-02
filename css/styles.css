@@ -1,0 +1,172 @@
+:root {
+	/* Text colors */
+	/* BG colors */
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+
+/* Fonts */
+--font-family: "Roboto", sans-serif;
+--second-family: "Raleway", sans-serif;
+}
+
+/* Others */
+.page{
+	font-family: var(--font-family);
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	letter-spacing: 0.02em;
+	color: var(--slate);
+}
+
+.list{
+	list-style: none;
+}
+
+.link{
+	text-decoration: none;
+	color: currentColor;
+}
+
+.btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(24 / 16);
+	letter-spacing: 0.04em;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.logo {
+	font-family: var(--second-family);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: calc(21 / 18);
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--iris);
+}
+
+/* Header styles */
+.header-link {
+	font-weight: 500;
+	color: var(--navy-blue);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-contact:hover,
+.header-contact:focus {
+	color: var(--ocean);
+}
+
+.header-contact {
+	font-weight: 400;
+	color: var(--slate);
+}
+
+/* Hero styles */
+.hero {
+	background-color: var(--navy-blue);
+}
+
+.hero-title {
+	font-size: 56px;
+	line-height: calc(60 / 56);
+	text-align: center;
+	color: var(--white);	
+}
+
+.hero-button {
+	color: var(--white);
+	background-color: var(--iris);
+	border: none;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+	background-color: var(--ocean);
+}
+
+/* Features styles */
+.features-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: calc(24 / 20);
+	color: var(--navy-blue);
+}
+
+/* What are we doing styles */
+.wedoing-title {
+	font-size: 36px;
+	line-height: calc(40 / 36);
+	text-transform: capitalize;
+	text-align: center;
+	color: var(--navy-blue);
+}
+
+/* Our team styles */
+.team-title {
+	font-size: 36px;
+	line-height: calc(40 / 36);
+	text-transform: capitalize;
+	text-align: center;
+	color: var(--navy-blue);
+}
+
+.team-title-userpic {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: calc(24 / 20);
+	text-align: center;
+	color: var(--navy-blue);
+}
+
+.team-desc {
+	text-align: center;
+	color: var(--slate);
+}
+
+/* Footer styles */
+.footer {
+	background-color: var(--navy-blue);
+}
+
+.footer-logo-accent {
+	color: var(--cloud);
+}
+
+.footer-desc {
+	color: var(--cloud);
+}
+
+/* Portfolio */
+.filters-button {
+	text-align: center;
+	color: var(--iris);
+	border: 1px solid var(--cornflower);
+	background-color: var(--cloud);
+}
+
+.filters-button:hover,
+.filters-button:focus {
+	color: var(--white);
+	background-color: var(--ocean);
+}
+
+.filters-card-title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: calc(24 / 20);
+	color: var(--navy-blue);
+}
